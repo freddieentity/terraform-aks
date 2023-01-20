@@ -30,5 +30,3 @@ Ref: https://youtu.be/fRU3-TbXiwg
 
 
 ![Network diagram depicting a hub-spoke network with two peered VNets and main Azure resources used in the architecture.](https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/images/secure-baseline-architecture.svg)
-
-

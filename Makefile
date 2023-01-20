@@ -25,6 +25,12 @@ ENV?=dev
 #  Scripts  #
 # ========= #
 
+install-pc:
+	pre-commit install
+
+pc:
+	pre-commit run --all-files
+
 init:
 	@echo "\n${GREEN} Environment($(ENV))${RESET} | ${PURPLE} Terraform ${RESET} Init\n"
 	terraform init -backend-config=environments/${ENV}/${ENV}.backend.hcl
