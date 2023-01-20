@@ -26,7 +26,7 @@ provider "azurerm" {
 
 data "azurerm_kubernetes_cluster" "main" {
   name                = azurerm_kubernetes_cluster.main.name
-  resource_group_name = azurerm_resource_group.main.name
+  resource_group_name = azurerm_resource_group.spoke_aks.name
 }
 
 

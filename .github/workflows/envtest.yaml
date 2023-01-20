@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print Env
-        run: 'echo "Env: ${{ env.MY_ENV }}"'
+        run: 'echo "Env: ${{ env.ENV }}"'
 
       - name: Print Secret
         run: 'echo "Secret: ${{ secrets.MY_SECRET }}"'

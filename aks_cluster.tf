@@ -1,9 +1,9 @@
 resource "azurerm_kubernetes_cluster" "main" {
   name                = "${local.name}-aks"
-  location            = azurerm_resource_group.main.location
-  resource_group_name = azurerm_resource_group.main.name
+  location            = azurerm_resource_group.spoke_aks.location
+  resource_group_name = azurerm_resource_group.spoke_aks.name
   dns_prefix          = "${local.name}-aks"
-  #   node_resource_group = azurerm_resource_group.main.name
+  #   node_resource_group = azurerm_resource_group.spoke_aks.name
 
 
   default_node_pool {
