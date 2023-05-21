@@ -1,4 +1,4 @@
-// resource_group_name  = "rg-experiments-sea"
-// storage_account_name = "terraformblobstoragedev"
-// container_name       = "terraform"
-// key                  = "terraform.tfstate"
+resource_group_name  = "TinNT26"
+storage_account_name = "tinnt26remotestate"
+container_name       = "dev"
+key                  = "terraform.tfstate"

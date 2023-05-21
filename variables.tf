@@ -1,35 +1,21 @@
-variable "project_id" {
-  type = string
-}
-
-variable "application" {
-  type = string
-}
-
 variable "azure_location" {
   type = string
 }
 
-variable "resource_group_name" {
+variable "resource_group" {
   type = string
 }
 
-variable "vnetcidr" {
-  type = list(any)
+variable "cluster_name" {
+  type = string
 }
 
-variable "subnetcidr" {
-  type = list(any)
+variable "kubernetes_version" {
+  type = string
 }
 
-variable "agent_pools" {
-  type = object({
-    name            = string
-    count           = number
-    vm_size         = string
-    os_disk_size_gb = string
-    }
-  )
+variable "node_pools" {
+  type = map(any)
 }
 
 variable "ssh_public_key" {
