@@ -30,3 +30,9 @@ Ref: https://youtu.be/fRU3-TbXiwg
 
 
 ![Network diagram depicting a hub-spoke network with two peered VNets and main Azure resources used in the architecture.](https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/images/secure-baseline-architecture.svg)
+
+
+https://learn.microsoft.com/en-us/users/nityan/collections/xz6ehr3z7o7e1q?fbclid=IwAR38BkAaSR537OExyllDiVIF-BaZyHmIQ711RW2qVn9Ea0gZ1XRk0ozwzYg
+
+## Extras
+https://techcommunity.microsoft.com/t5/fasttrack-for-azure/deploy-and-run-a-azure-openai-chatgpt-app-on-aks-with-terraform/ba-p/3839611

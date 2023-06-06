@@ -1,0 +1,1 @@
+Ref: https://learn.microsoft.com/en-us/azure/developer/terraform/hub-spoke-validation
